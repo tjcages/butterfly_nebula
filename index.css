@@ -1,0 +1,31 @@
+html, body {
+	overflow: hidden;
+	margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+#PenDetails {
+	position: absolute;
+	bottom: 5vh;
+	left: 5vh;
+	color: #FFF;
+	font-family: Lora, serif;
+}
+
+* { 
+  line-height: 20px;
+  cursor: crosshair;
+}
+
+h1 {
+  font-size: 14pt;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9pt;
+  opacity: 0.75;
+  padding-left: 20px;
+}
